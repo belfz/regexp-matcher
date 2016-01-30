@@ -1,0 +1,5 @@
+node_modules
+dist/*.js
+dist/*.map
+.idea
+.idea/workspace.xml
