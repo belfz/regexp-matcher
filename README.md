@@ -1,9 +1,8 @@
 ##RegExp matcher
 
-###Created with React and RxJS.
+###Created with React, RxJS and electron (!)
 
-An example application for matching regular expressions created with reactive in mind. Note the usage of observables in `componentDidMount()` lifecycle method of the main component.
+An example application for matching regular expressions.
 
-### Build & start
-
-Run `npm install && npm start`, then navigate to `localhost:8080` (content is served by `webpack-dev-server`)
+Just `npm install`. The `postinstall` hook will automatically take care of the rest (webpack & electron packager).
+The ready-to-use app will be then available in ./RegExpMatcher-darwin-x64/RegExpMatcher.app

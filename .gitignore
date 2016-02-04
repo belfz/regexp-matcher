@@ -3,3 +3,4 @@ dist/*.js
 dist/*.map
 .idea
 .idea/workspace.xml
+RegExpMatcher-darwin-x64
